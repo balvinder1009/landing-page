@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+  background-image: url("https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  min-height: 100vh;
+}
+
+.wrapper {
+  background-color: rgba(0, 0, 0, 0.5);
+  min-height: 100vh;
+}
+
+header h1 {
+  margin: 0.6rem;
+  color: orange;
+}
+
+.navigation-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* border: 1px solid white; */
+  margin-top: 0.6rem;
+}
+
+nav ul li {
+  list-style-type: none;
+  margin: 15px 12px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: orange;
+}
+
+.search-box {
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.search-box input {
+  height: 2rem;
+  background: transparent;
+  border: 1px solid orange;
+  color: white;
+  padding-left: 5px;
+}
+.search-box input:focus {
+  outline: 1px solid orange;
+}
+.search-box input[type="submit"] {
+  width: 100px;
+  color: white;
+  background-color: orange;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* border: 1px solid white; */
+  margin: 2rem 2rem;
+}
+
+.hero section {
+  flex: 1;
+  padding: 3rem;
+}
+
+section h1 {
+  font-size: 2rem;
+}
+
+.bg-orange {
+  color: orange;
+}
+.display-block {
+  display: block;
+}
+
+.hero section p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.btn-join {
+  background-color: orange;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  font-weight: bolder;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+
+.btn-join:hover {
+  background-color: transparent;
+  border: 1px solid orange;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* gap: 10px; */
+}
+
+.form-control h4 {
+  background-color: white;
+  color: orange;
+  padding: 5px 36px;
+  margin-bottom: 10px;
+}
+
+.form-control input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid orange;
+  background-color: transparent;
+  height: 24px;
+  margin: 0.8rem 0;
+  color: white;
+}
+
+.form-control input::placeholder {
+  color: white;
+}
+
+.social-media {
+  display: flex;
+}
+
+i {
+  padding: 10px;
+  font-size: 1rem;
+}
+
+i:hover {
+  color: orange;
+}
